@@ -1,2 +1,154 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 :root{font-family:'DM Sans';color:#26343a;background:#f7f5f0}*{box-sizing:border-box}body{margin:0}button,input,textarea,select{font:inherit}button{cursor:pointer;border:0}.shell{display:flex;min-height:100vh}aside{width:240px;background:#202c32;color:#dce5df;padding:27px 16px;display:flex;flex-direction:column}.logo{font:600 13px 'DM Mono';letter-spacing:.08em}.logo span{color:#d8a153;font-size:20px;margin-right:7px}.campaign{background:#2b3a40;margin-top:47px;padding:14px;border:1px solid #405057;border-radius:7px}.campaign small,.campaign span{display:block;color:#93a7a4;font-size:11px}.campaign strong{display:block;font:600 20px 'Space Grotesk';margin:6px 0}.campaign span{font:10px 'DM Mono'}nav{display:grid;gap:5px;margin-top:25px}nav button,.side-bottom button{color:#99aeab;background:none;text-align:left;padding:11px 12px;border-radius:6px;display:flex;align-items:center;gap:13px}nav button.active{background:#d8a153;color:#202c32}nav i{font-style:normal;font-size:18px}.side-bottom{margin-top:auto;display:grid;gap:14px}.side-bottom small{font:10px 'DM Mono';color:#748886;padding-left:12px}main{flex:1;min-width:0}header{height:122px;padding:30px 48px 22px;border-bottom:1px solid #dde0db;display:flex;justify-content:space-between;align-items:end}.crumb,.timeline-intro>div>span{font:10px 'DM Mono';letter-spacing:.1em;color:#899590}h1{font:600 31px 'Space Grotesk';letter-spacing:-.06em;margin:6px 0 0}.actions{display:flex;gap:9px}.outline,.primary{padding:10px 14px;border-radius:5px;font-size:12px;font-weight:600}.outline{background:#fff;border:1px solid #d3d9d4;color:#566763}.primary{background:#273b3e;color:#fff}.timeline-layout{display:grid;grid-template-columns:minmax(460px,1fr) minmax(330px,39%);min-height:calc(100vh - 122px)}.timeline{padding:42px 44px}.timeline-intro{display:flex;align-items:end;justify-content:space-between;margin-bottom:32px}.timeline-intro h2{font:600 24px 'Space Grotesk';margin:7px 0 0;letter-spacing:-.04em}.count{font:10px 'DM Mono';color:#8c9a96}.chapter{display:grid;grid-template-columns:74px 28px 1fr 22px;gap:13px;width:100%;padding:0 0 28px;text-align:left;background:none}.date{text-align:right;padding-top:4px}.date b{display:block;font:13px 'DM Mono'}.date small{color:#98a19d;font:10px 'DM Mono'}.line{position:relative;display:flex;align-items:flex-start;justify-content:center}.line span{width:11px;height:11px;border:3px solid #f7f5f0;border-radius:50%;z-index:1;outline:1px solid #a8b6af}.line>i{position:absolute;width:1px;background:#cbd5ce;top:11px;bottom:-28px}.chapter:last-child .line>i{display:none}.chapter-copy{padding:0 0 0 5px}.chapter:hover .chapter-copy,.chapter.selected .chapter-copy{transform:translateX(4px)}.chapter-copy h3{font:600 18px 'Space Grotesk';margin:7px 0 6px;letter-spacing:-.03em}.chapter-copy p{font-size:12px;color:#7a8883;margin:0;max-width:350px}.tag{font:10px 'DM Mono';color:#a07232;background:#f1e6d4;padding:4px 7px;border-radius:3px}.arrow{font-size:18px;color:#8a9690;padding-top:5px}.chapter.selected .chapter-copy h3{color:#ae7125}.detail-panel{background:#edf0ea;border-left:1px solid #dce2da;padding:46px 40px}.detail-cover{aspect-ratio:1.6;border-radius:7px;padding:17px;display:flex;justify-content:space-between;font:10px 'DM Mono';color:#34413f}.detail-cover i{font-size:39px;color:#f4f0d2}.detail-body{padding-top:29px}.detail-body h2{font:600 30px 'Space Grotesk';letter-spacing:-.06em;margin:13px 0}.detail-body>p{color:#687772;font-size:13px;line-height:1.7}.meta-grid{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #d6ddd6;border-bottom:1px solid #d6ddd6;padding:15px 0;margin-top:28px}.meta-grid small,.meta-grid strong{display:block}.meta-grid small{font:10px 'DM Mono';color:#8a9892}.meta-grid strong{font-size:12px;margin-top:5px}.note{display:flex;align-items:center;gap:10px;margin-top:25px;color:#76847f}.note>span{font-size:20px}.note strong{font-size:12px}.note p{font-size:11px;margin:3px 0}.note button{margin-left:auto;color:#a66d2d;font-size:11px}.cards{padding:44px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.section-note{grid-column:1/-1;color:#788580;font-size:13px;margin-bottom:5px}.char-card{background:#fff;border:1px solid #e0e3de;border-radius:8px;padding:20px;display:flex;align-items:center;gap:13px}.avatar{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font:600 20px 'Space Grotesk';color:#243238}.char-card small{font:10px 'DM Mono';color:#8e9995}.char-card h3{font:600 20px 'Space Grotesk';margin:3px 0}.char-card p{font-size:11px;color:#88938f;margin:0}.char-card button{margin-left:auto;color:#a56c27;font-size:18px}.empty{padding:100px 12%;text-align:center;color:#74827e}.empty>div:first-child{font-size:45px;color:#d09a4c}.empty h2{font:600 29px 'Space Grotesk';color:#29383d;margin:12px 0}.empty p{font-size:13px}.place-list{max-width:420px;margin:28px auto;text-align:left;display:grid;gap:7px}.place-list span{background:#fff;padding:13px;border:1px solid #e1e5e0;border-radius:5px;font-size:13px}.place-list b{float:right;font:10px 'DM Mono';color:#799787}.modal-bg{position:fixed;inset:0;background:#20303466;display:grid;place-items:center}.modal{width:min(440px,92vw);background:#f8f7f2;padding:30px;border-radius:8px;box-shadow:0 15px 40px #20303440;position:relative;display:grid;gap:15px}.modal h2{font:600 25px 'Space Grotesk';margin:0 0 4px}.modal label{font-size:11px;color:#6d7b76;display:grid;gap:6px}.modal input,.modal textarea,.modal select{border:1px solid #d4dcd5;border-radius:5px;padding:10px;background:#fff;outline:none}.close{position:absolute;right:18px;top:15px;font-size:25px;color:#899590;background:none}.full{width:100%;margin-top:3px}.toast{position:fixed;right:24px;bottom:22px;background:#23383c;color:#fff;padding:11px 16px;border-radius:5px;font-size:12px}@media(max-width:800px){aside{display:none}header{padding:25px 20px}.timeline-layout{display:block}.timeline{padding:32px 20px}.detail-panel{border-left:0}.cards{padding:25px 20px;grid-template-columns:1fr}.actions .outline{display:none}}
+
+/* ===== 线索追踪板 ===== */
+.board{padding:34px 44px;max-width:1080px}
+.board-head{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.board-count{font-size:12px;color:#7a8883}
+.board-actions{display:flex;gap:10px;align-items:center}
+.seg{display:flex;border:1px solid #d3d9d4;border-radius:6px;overflow:hidden;background:#fff}
+.seg button{padding:7px 14px;font-size:12px;color:#6c7a75;background:none;border-right:1px solid #e3e7e2}
+.seg button:last-child{border-right:0}
+.seg button.on{background:#273b3e;color:#fff}
+.board-empty{padding:34px;text-align:center;color:#8a9690;font-size:13px;border:1px dashed #cfd8d1;border-radius:8px;background:#fbfaf6}
+.clue-list{display:grid;gap:12px}
+.clue-card{background:#fff;border:1px solid #e0e3de;border-radius:9px;overflow:hidden;transition:box-shadow .15s}
+.clue-card:hover{box-shadow:0 4px 18px #20303414}
+.clue-card.is-closed{background:#f6f7f3}
+.clue-top{display:flex;align-items:center;gap:13px;width:100%;padding:16px 18px;background:none;text-align:left}
+.clue-dot{width:10px;height:10px;border-radius:50%;flex:none;display:inline-block}
+.clue-dot.open{background:#d09a4c;box-shadow:0 0 0 3px #f1e6d4}
+.clue-dot.closed{background:#7d9989;box-shadow:0 0 0 3px #e4ece7}
+.clue-title{flex:1;min-width:0}
+.clue-title h3{font:600 16px 'Space Grotesk';margin:0 0 3px;letter-spacing:-.02em}
+.clue-title p{margin:0;font-size:12px;color:#8a9690;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:560px}
+.clue-status{font:10px 'DM Mono';padding:4px 9px;border-radius:20px}
+.clue-status.open{background:#f1e6d4;color:#a07232}
+.clue-status.closed{background:#e4ece7;color:#4f6f60}
+.clue-caret{color:#aab5af;font-size:13px}
+.clue-meta{display:flex;gap:22px;flex-wrap:wrap;padding:0 18px 14px 41px;font-size:11px;color:#8a9690}
+.clue-meta>span{display:inline-flex;align-items:center;gap:6px}
+.clue-meta b{color:#4f5f5a;font-weight:600}
+.owner-chip{background:#eef2ed;padding:2px 8px;border-radius:20px}
+.carry-tag{color:#a07232!important;background:#f7efe2;padding:3px 9px;border-radius:20px}
+.link{background:none;color:#a66d2d;font-size:12px;padding:0;font-weight:500}
+.link:hover{text-decoration:underline}
+.link.sm{font-size:11px}
+.clue-body{border-top:1px solid #eceee8;padding:18px 18px 16px;background:#fbfaf6}
+.clue-actions{display:flex;gap:10px;margin-top:14px}
+.sm{padding:7px 12px!important;font-size:12px!important;border-radius:5px}
+.outline.sm,.primary.sm{font-weight:600}
+/* 链路时间线 */
+.trace{position:relative;margin-left:6px;border-left:2px solid #dde4dd;padding-left:22px;display:grid;gap:14px}
+.trace-node{position:relative}
+.trace-node>i{position:absolute;left:-30px;top:1px;width:19px;height:19px;border-radius:50%;display:grid;place-items:center;font:10px 'DM Mono';font-style:normal;color:#fff;background:#9db0a6}
+.trace-node.origin>i{background:#d09a4c}
+.trace-node.close-node>i{background:#5f7d6e}
+.trace-node b{font-size:12px;color:#3c4a45}
+.trace-node p{margin:3px 0 0;font-size:12px;color:#76847f;line-height:1.6}
+/* 冲突 */
+.conflict-box{margin-top:16px;border:1px solid #e6d3c8;background:#fbf3ee;border-radius:7px;padding:13px 15px}
+.conflict-box h4{margin:0 0 8px;font:600 12px 'Space Grotesk';color:#a85b3a}
+.conflict-row{font-size:12px;color:#6b5d56;margin-bottom:9px}
+.conflict-row:last-child{margin-bottom:0}
+.conflict-row p{margin:3px 0;line-height:1.6}
+.conflict-row .rejected{color:#a85b3a}
+.conflict-row .kept{color:#4f6f60}
+/* 表单通用 */
+.form-hint{font-size:12px;color:#7c8985;line-height:1.6;margin:0 0 6px}
+.form-error{color:#a85b3a;font-size:12px;margin:4px 0 0}
+.modal-wide{width:min(720px,93vw)}
+.modal label{font-size:11px;color:#6d7b76;display:grid;gap:6px}
+.row-end{display:flex;justify-content:flex-end}
+.row-end.gap{gap:10px;margin-top:8px}
+.color-row{display:flex;gap:9px}
+.color-dot{width:24px;height:24px;border-radius:50%;border:2px solid transparent;opacity:.75}
+.color-dot.on{opacity:1;border-color:#273b3e;box-shadow:0 0 0 2px #fff inset}
+
+/* ===== 时间线详情：参与人 / 章节内线索 ===== */
+.tag-row{display:flex;align-items:center;gap:10px}
+.settled-chip{font:10px 'DM Mono';color:#4f6f60;background:#e4ece7;padding:4px 8px;border-radius:3px}
+.summary-p{color:#687772;font-size:13px;line-height:1.7;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.summary-edit textarea{width:100%;border:1px solid #d4dcd5;border-radius:6px;padding:10px;font:inherit;resize:vertical}
+.participants{margin-top:24px}
+.block-title{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.block-title h4{font:600 13px 'Space Grotesk';margin:0;color:#33413c}
+.block-title h4 em{font-style:normal;color:#93a19b;font:10px 'DM Mono';margin-left:4px}
+.block-title small,.block-hint{font-size:11px;color:#93a19b}
+.p-checks{display:flex;flex-wrap:wrap;gap:9px;margin-top:11px}
+.p-check{display:inline-flex;align-items:center;gap:7px;border:1px solid #d7ded7;border-radius:20px;padding:5px 12px 5px 8px;font-size:12px;background:#fff;cursor:pointer;color:#42504b}
+.p-check input{accent-color:#273b3e}
+.p-check.on{background:#273b3e;color:#fff;border-color:#273b3e}
+.p-check.blocked{opacity:.5;cursor:not-allowed;background:#f1f2ee;text-decoration:line-through}
+.p-check.blocked i{font-style:normal;font:9px 'DM Mono';background:#d9ded6;color:#7b8882;padding:2px 6px;border-radius:10px;text-decoration:none}
+.avatar.xs{width:22px;height:22px;font-size:11px;color:#fff;border-radius:50%;display:grid;place-items:center;font-family:'Space Grotesk'}
+.clue-section{margin-top:22px}
+.fu-row{display:flex;align-items:center;gap:10px;width:100%;background:#fff;border:1px solid #e3e7e1;border-radius:7px;padding:10px 13px;margin-top:8px;text-align:left}
+button.fu-row{cursor:pointer}
+button.fu-row:hover{border-color:#c9d2c9}
+.fu-row b{font-size:12px;color:#374641;white-space:nowrap}
+.fu-row p{margin:0;font-size:12px;color:#7d8a85;flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fu-row i{font-style:normal;font:10px 'DM Mono'}
+i.st-open{color:#a07232}
+i.st-closed{color:#4f6f60}
+.settle-foot{margin-top:26px;padding-top:16px;border-top:1px solid #d6ddd6}
+.settle-foot .muted,.muted{color:#93a19b;font-size:12px}
+.settled-line{font-size:12px;color:#4f6f60}
+/* 结算弹窗 */
+.settle-box .settle-line{display:flex;justify-content:space-between;padding:9px 2px;border-bottom:1px dashed #e0e5df;font-size:13px;color:#5c6a65}
+.settle-line b{color:#2d3b37}
+.settle-line b.warn,.warn{color:#b06a2c}
+.carry-list{margin:12px 0;display:grid;gap:7px}
+.carry-item{display:flex;align-items:center;gap:9px;background:#fbfaf6;border:1px solid #ece8dc;border-radius:6px;padding:9px 12px}
+.carry-item small{color:#8a9690;font-size:11px}
+
+/* ===== 角色页 ===== */
+.section-note{grid-column:1/-1;color:#788580;font-size:13px;margin-bottom:5px;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.row-between{display:flex;justify-content:space-between;align-items:center}
+.char-card{position:relative}
+.char-card.is-away{background:#f4f5f1;border-style:dashed}
+.char-main{flex:1;cursor:pointer}
+.away-flag{display:inline-block;margin-left:8px;font:9px 'DM Mono';color:#8a6b4f;background:#efe3d2;padding:2px 7px;border-radius:10px}
+.char-btns{display:grid;gap:7px;justify-items:end}
+.roster-sub{grid-column:1/-1;margin-top:14px;font:600 13px 'Space Grotesk';color:#5c6a65}
+.sheet{display:grid;gap:20px}
+.sheet-section h4{font:600 12px 'Space Grotesk';letter-spacing:.04em;color:#52605b;border-bottom:1px solid #e6eae4;padding-bottom:7px;margin:0 0 10px}
+.tenure-row{display:flex;gap:12px;padding:6px 0}
+.tenure-no{width:22px;height:22px;flex:none;border-radius:50%;background:#e9eeea;color:#54705f;font:10px 'DM Mono';display:grid;place-items:center}
+.tenure-row b{font-size:12px;color:#3c4a45}
+.tenure-row p{margin:3px 0 0;font-size:12px;color:#83908b}
+.appear-row{display:flex;align-items:center;gap:11px;width:100%;background:#fbfaf6;border:1px solid #ecefea;border-radius:6px;padding:8px 12px;margin-bottom:7px;text-align:left}
+.appear-row:hover{background:#f4f7f2}
+.appear-row b{font-size:12px;color:#3c4a45;flex:1}
+.appear-row small{font:10px 'DM Mono';color:#98a19d}
+.settled-mark{font-style:normal;font:9px 'DM Mono';background:#e4ece7;color:#4f6f60;padding:2px 7px;border-radius:10px}
+.own-clue{display:flex;align-items:center;gap:9px;padding:6px 0}
+.own-clue b{font-size:12px;color:#3c4a45}
+.own-clue small{font-size:11px;color:#93a19b}
+
+/* ===== 归档库 ===== */
+.archive-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.archive-card{background:#fff;border:1px solid #e0e3de;border-radius:9px;padding:18px}
+.arc-top{display:flex;justify-content:space-between;align-items:center}
+.arc-top small{font:10px 'DM Mono';color:#98a19d}
+.archive-card h3{font:600 18px 'Space Grotesk';margin:10px 0 3px}
+.archive-card>p{font-size:12px;color:#83908b;margin:0}
+.arc-meta{display:flex;gap:8px;flex-wrap:wrap;margin:13px 0}
+.arc-meta span{font:10px 'DM Mono';background:#eef1ec;color:#5c6a65;padding:4px 9px;border-radius:20px}
+.arc-note{font-size:12px;color:#6f7d78;border-top:1px dashed #e4e8e3;padding-top:10px;margin-top:4px!important}
+.warn-box{background:#fbf3e8;border:1px solid #ecdcc4;color:#8a5f2c;font-size:12px;line-height:1.6;border-radius:7px;padding:12px 14px;margin-bottom:14px}
+button.danger{background:#8c4a35}
+.arc-tabs{display:flex;gap:6px;border-bottom:1px solid #e6eae4;margin-bottom:16px}
+.arc-tabs button{background:none;padding:9px 14px;font-size:12px;color:#7c8985;border-bottom:2px solid transparent;margin-bottom:-1px}
+.arc-tabs button.on{color:#2d3b37;border-color:#d09a4c;font-weight:600}
+.review-list{display:grid;gap:12px;max-height:58vh;overflow:auto;padding-right:6px}
+.review-clue{border:1px solid #e3e7e1;border-radius:8px;padding:14px 16px;background:#fdfdfb}
+.review-clue.closed{background:#f7f9f6}
+.review-clue-head{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.review-clue-head b{font-size:14px;color:#33413c}
+.review-clue-head small{font-weight:400;color:#93a19b;font-size:11px;margin-left:4px}
+.review-clue-head i{margin-left:auto;font:10px 'DM Mono';font-style:normal;color:#7c8985}
+.review-char{border:1px solid #e3e7e1;border-radius:8px;padding:14px 16px;background:#fff}
+.appear-line{margin-bottom:0}
+.nav-badge{font-style:normal;background:#d09a4c;color:#202c32;font:9px 'DM Mono';min-width:17px;height:17px;border-radius:9px;display:grid;place-items:center;margin-left:auto;padding:0 5px}
+@media(max-width:800px){.board{padding:26px 18px}.archive-grid{grid-template-columns:1fr}.clue-title p{max-width:46vw}nav .nav-badge{margin-left:0}.section-note{display:block}}
